@@ -1,0 +1,1 @@
+# LinkedIn Puzzle Bot Browser Extension

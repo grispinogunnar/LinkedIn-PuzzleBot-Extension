@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>LinkedIn PuzzleBot</title>
+        <style>
+            body {
+                font-family: system-ui, sans-serif;
+                margin: 10px;
+                min-width: 220px;
+            }
+            button {
+                display: block;
+                width: 100%;
+                margin-bottom: 6px;
+                padding: 6px 8px;
+            }
+            #log {
+                font-size: 11px;
+                white-space: pre-wrap;
+                border: 1px solid #ccc;
+                padding: 4px;
+                max-height: 120px;
+                overflow-y: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="solve-sudoku">Solve Sudoku</button>
+        <button id="solve-zip">Solve Zip</button>
+        <div id="log"></div>
+        <script src="popup.js"></script>
+    </body>
+</html>

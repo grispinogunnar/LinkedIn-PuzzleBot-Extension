@@ -26,3 +26,7 @@ document.getElementById("solve-sudoku").addEventListener("click", () => {
 document.getElementById("solve-zip").addEventListener("click", () => {
     injectScript("zip_content.js").catch(err => log("Error: " + err));
 });
+
+document.getElementById("solve-tango").addEventListener("click", () => {
+    injectScript("tango_content.js").catch(err => log("Error: " + err));
+});
